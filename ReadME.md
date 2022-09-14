@@ -4,6 +4,10 @@
 
 * A application that will generate a professional README file for me for whenever I begin a new project or to improve my past README files.
 
+## Video
+
+
+
 ## Installation
 * Install node, then make sure npm is installed and then install inquirer
 
@@ -14,8 +18,9 @@
 * Run node and then the file name that the project is in
 
 ## Contributors 
-Daniel Chase
+* Daniel Chase
 
 ## Questions
-If you have any questions regarding the project, please contact me at: danielchas886@gmail.com
-Github Link:
+* If you have any questions regarding the project, please contact me at:  danielchas886@gmail.com
+
+* Github Link:
