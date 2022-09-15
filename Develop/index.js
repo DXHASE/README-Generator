@@ -44,6 +44,12 @@ const questions = [
         type:'input',
         name:'github',
         message:'Enter your github link here: '
+    },
+    {
+        type:'checkbox',
+        name:'license',
+        message:'Which License would you like to use? ',
+        choices:['MIT','Apache','GNUv3.0','Mozilla']
     }
 ];
 
@@ -60,6 +66,7 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer.prompt(questions)
     .then(answers =>{
+        console.log(answers,'answers')
         const answerData = generateMarkdown(answers)
         writeToFile('./dist/README.md',answerData);
     });
